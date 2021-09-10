@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:layout_width="163dp"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="43dp"
+            android:layout_marginEnd="106dp"
+            android:layout_marginLeft="142dp"
+            android:layout_marginRight="106dp"
+            android:layout_marginStart="142dp"
+            android:layout_marginTop="41dp"
+            android:text="Covid-19"
+            android:textSize="34dp" />
+
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:columnCount="2"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+
+            app:cardCornerRadius="8dp">
+
+
+            <Button
+                android:id="@+id/statesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#A6E174 "
+                android:onClick="clickStates"
+                android:text="States"
+                android:textAlignment="center"
+                android:textColor="#151C10"
+                android:textSize="20dp"></Button>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+
+            app:cardCornerRadius="8dp">
+
+
+            <Button
+                android:id="@+id/dailyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#83C7FA  "
+                android:onClick="clickDaily"
+                android:text="Daily   Changes"
+                android:textAlignment="center"
+                android:textColor="#151C10"
+                android:textSize="20dp"></Button>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+
+            app:cardCornerRadius="8dp">
+
+
+            <Button
+                android:id="@+id/distBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#ECBB7A  "
+                android:text="Districs"
+                android:textAlignment="center"
+                android:textColor="#151C10"
+                android:textSize="20dp"></Button>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+
+            app:cardCornerRadius="8dp">
+
+
+            <Button
+                android:id="@+id/newsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#0CF5EC"
+                android:onClick="GetNews"
+                android:text="News"
+                android:textAlignment="center"
+                android:textColor="#151C10"
+                android:textSize="20dp"></Button>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+
+            app:cardCornerRadius="8dp">
+
+
+            <Button
+                android:id="@+id/tesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="#F3A899 "
+
+                android:text="Tests"
+                android:textAlignment="center"
+                android:textColor="#151C10"
+                android:textSize="20dp"></Button>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
+
+            app:cardCornerRadius="8dp">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A6E174 "
+
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+
+                android:text="States"
+                android:textColor="#151C10"
+                android:textSize="20dp"></Button>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>
