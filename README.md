@@ -1,4 +1,4 @@
-# Covid-19 Live App
+# GeoCovid : Covid-19 Live App
 
 ## Overview
 Covid-19 Live App is a mobile application providing real-time updates on COVID-19 statistics and news, leveraging REST APIs for location-based data and Google services.
