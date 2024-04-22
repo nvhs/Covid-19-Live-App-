@@ -12,7 +12,7 @@ Covid-19 Live App is a mobile application providing real-time updates on COVID-1
 
 ## Screenshots
 ![Main Menu](Covid1.png)
-![Daily Changes](covid2.png)
+![Daily Changes](COV2.png)
 ![State Specific Details](covid3.png)
 
 *Note: Replace the paths with the actual paths to your screenshot files in the repository.*
